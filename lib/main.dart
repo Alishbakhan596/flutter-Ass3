@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterclass4/Calls.dart';
-import 'package:flutterclass4/WhatsAppUI.dart';
-import 'package:flutterclass4/abc.dart';
-import 'package:flutterclass4/login.dart';
+import 'package:flutterclass4/calculator.dart';
+import 'package:flutterclass4/images.dart';
+import 'package:flutterclass4/profile_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,9 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: WhatsAppHome(),
-        //body: CalculatorUI(),
-        //body: LoginView(),
+        body: ProfileScreen(),
       ),
     );
   }
