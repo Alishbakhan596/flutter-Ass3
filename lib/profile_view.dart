@@ -15,6 +15,7 @@ class ProfileScreen extends StatelessWidget {
         title: Center(
           child: Image.asset("assets/images/logo.png"),
         ),
+        actions: [Image.asset("assets/images/picture.png")],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -56,42 +57,55 @@ class ProfileScreen extends StatelessWidget {
               width: 500,
               child: Image.asset("assets/images/type.png"),
             ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
-                color: Color.fromRGBO(255, 255, 255, 0.952),
+            Center(
+              child: Row(
+                // mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Color.fromRGBO(255, 255, 255, 0.728),
+                    ),
+                    height: 200,
+                    width: 400,
+                    child: Image.asset("assets/images/Rectangle.png"),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Color.fromRGBO(255, 255, 255, 0.728),
+                    ),
+                    child: Image.asset("assets/images/offer.png"),
+                  ),
+                ],
               ),
-              height: 100,
-              width: 500,
-              child: Image.asset("assets/images/Rectangle.png"),
             ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
-                color: Color.fromARGB(255, 216, 210, 212),
-              ),
-              height: 180,
-              width: 500,
-              child: Center(
-                child: Text(
-                  "Vist Now",
-                  style: TextStyle(color: Colors.black),
-                ),
-              ),
-            ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
-                color: Color.fromARGB(255, 216, 210, 212),
-              ),
-              //color: Color.fromARGB(255, 216, 210, 212),
-              height: 180,
-              width: 500,
-              child: Center(
-                child: Text(
-                  "Flat And Heels",
-                  style: TextStyle(color: Colors.black),
-                ),
+            Center(
+              child: Row(
+                // mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Color.fromARGB(215, 255, 255, 255),
+                    ),
+                    //color: Color.fromARGB(255, 216, 210, 212),
+                    height: 180,
+                    width: 500,
+                    child: Center(
+                      child: Image.asset("assets/images/heels.png"),
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Color.fromARGB(215, 255, 255, 255),
+                    ),
+                    child: Center(
+                      child: Image.asset("assets/images/Flats.png"),
+                    ),
+                  ),
+                ],
               ),
             ),
             Container(
@@ -100,13 +114,9 @@ class ProfileScreen extends StatelessWidget {
                 color: Colors.pinkAccent,
               ),
               //color: Colors.pinkAccent,
-              height: 50,
+              height: 100,
               width: 500,
-              child: Center(
-                  child: Text(
-                "Trending products",
-                style: TextStyle(color: Colors.black),
-              )),
+              child: Center(child: Image.asset("assets/images/writing.png")),
             ),
             Container(
               decoration: BoxDecoration(
@@ -114,13 +124,10 @@ class ProfileScreen extends StatelessWidget {
                 color: Color.fromARGB(215, 216, 210, 212),
               ),
               //color: Color.fromARGB(255, 216, 210, 212),
-              height: 180,
+              height: 200,
               width: 500,
               child: Center(
-                child: Text(
-                  "Hot Summer Sale",
-                  style: TextStyle(color: Colors.black),
-                ),
+                child: Image.asset("assets/images/Maskgroup.png"),
               ),
             ),
           ],

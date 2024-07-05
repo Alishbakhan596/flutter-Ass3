@@ -62,13 +62,21 @@ flutter:
   assets:
     - assets/images/logo.png
     - assets/images/Menu.png
+    - assets/images/picture.png 
     - assets/images/Beauty.png
     - assets/images/Fashion.png
     - assets/images/Kids.png
     - assets/images/Means.png
     - assets/images/Typing.png
     - assets/images/type.png
+    - assets/images/write.png
     - assets/images/Rectangle.png
+    - assets/images/offer.png
+    - assets/images/Rectangle 2.png
+    - assets/images/heels.png
+    - assets/images/Flats.png
+    - assets/images/writing.png
+    - assets/images/Maskgroup.png
     # - assets/images/cars.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
